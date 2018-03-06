@@ -1,0 +1,44 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, ’9.0’
+
+ use_frameworks!
+inhibit_all_warnings!
+
+def corePods
+   	pod 'HockeySDK', '~> 5.1.1'
+	pod 'NVActivityIndicatorView'    	
+	pod 'IQKeyboardManagerSwift', '~> 5.0.0'
+ 	pod 'R.swift', '~> 4.0.0'
+	pod 'Realm'
+
+end
+
+target 'RoPro' do
+    corePods
+end
+
+target 'RoProTests' do
+    corePods
+end
+
+target 'RoProUITests' do
+    corePods
+end
+
+post_install do |installer|
+	
+	installer.pods_project.targets.each do |target|
+		if target.name.include?("Pods-")
+			require 'fileutils'
+			FileUtils.cp_r('Pods/Target Support Files/' + target.name + '/' + target.name + '-acknowledgements.plist',
+						   'Resources/Settings.bundle/Pods-acknowledgements.plist', :remove_destination => true)
+		end
+		
+		target.build_configurations.each do |config|
+			config.build_settings['EXPANDED_CODE_SIGN_IDENTITY'] = ""
+			config.build_settings['CODE_SIGNING_REQUIRED'] = "NO"
+			config.build_settings['CODE_SIGNING_ALLOWED'] = "NO"
+		end
+	end
+end
+

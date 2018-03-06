@@ -1,0 +1,6 @@
+framework module Pods_RoProUITests {
+  umbrella header "Pods-RoProUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

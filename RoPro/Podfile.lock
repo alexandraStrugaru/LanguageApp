@@ -1,0 +1,33 @@
+PODS:
+  - HockeySDK (5.1.2):
+    - HockeySDK/DefaultLib (= 5.1.2)
+  - HockeySDK/DefaultLib (5.1.2)
+  - IQKeyboardManagerSwift (5.0.7)
+  - NVActivityIndicatorView (4.1.1):
+    - NVActivityIndicatorView/Presenter (= 4.1.1)
+  - NVActivityIndicatorView/Presenter (4.1.1)
+  - R.swift (4.0.0):
+    - R.swift.Library (~> 4.0.0)
+  - R.swift.Library (4.0.0)
+  - Realm (3.1.1):
+    - Realm/Headers (= 3.1.1)
+  - Realm/Headers (3.1.1)
+
+DEPENDENCIES:
+  - HockeySDK (~> 5.1.1)
+  - IQKeyboardManagerSwift (~> 5.0.0)
+  - NVActivityIndicatorView
+  - R.swift (~> 4.0.0)
+  - Realm
+
+SPEC CHECKSUMS:
+  HockeySDK: 38b7e2726af1ea86ae97ce4b5de33ab0817e3500
+  IQKeyboardManagerSwift: 30fb3a61de1af53a95e02b80fb54ed0a19d5ede5
+  NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
+  R.swift: d6a5ec2f55a8441dc0ed9f1f8b37d7d11ae85c66
+  R.swift.Library: c3af34921024333546e23b70e70d0b4e0cffca75
+  Realm: 42d1c38a5b1bbcc828b48a7ce702cb86fc68adf4
+
+PODFILE CHECKSUM: c6d81afeef65c58911a5ee90e0b1fbaabcf2b470
+
+COCOAPODS: 1.4.0
