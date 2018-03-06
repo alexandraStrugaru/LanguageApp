@@ -1,0 +1,814 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26B37BDEADD97BE773742949 /* Pods_RoProTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7ED535F56D52261B1BF0C8 /* Pods_RoProTests.framework */; };
+		721AA329CEFA89DD09707FF6 /* Pods_RoProUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18B752A185B888616253D261 /* Pods_RoProUITests.framework */; };
+		BBD99897302EB830054318AF /* Pods_RoPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9BB863E192E13E9F6673455 /* Pods_RoPro.framework */; };
+		FF1B3738204C53DE0082DBFC /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FF1B3735204C53DE0082DBFC /* Base.lproj */; };
+		FF1B373A204C53DE0082DBFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1B3737204C53DE0082DBFC /* Assets.xcassets */; };
+		FF1B373E204C53F60082DBFC /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FF1B373C204C53F60082DBFC /* Settings.bundle */; };
+		FF1B3744204C55BA0082DBFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1B3743204C55BA0082DBFC /* ViewController.swift */; };
+		FF1B3747204C55C00082DBFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1B3745204C55C00082DBFC /* AppDelegate.swift */; };
+		FF1B3748204C55C10082DBFC /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF1B3746204C55C00082DBFC /* Info.plist */; };
+		FF1B374B204C56020082DBFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1B3749204C56020082DBFC /* Main.storyboard */; };
+		FF1B374C204C56020082DBFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1B374A204C56020082DBFC /* LaunchScreen.storyboard */; };
+		FFD08BAE204BFD260091E42B /* RoProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD08BAD204BFD260091E42B /* RoProTests.swift */; };
+		FFD08BB9204BFD260091E42B /* RoProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD08BB8204BFD260091E42B /* RoProUITests.swift */; };
+		FFD08BCB204C43040091E42B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = FFD08BCA204C43030091E42B /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FFD08BAA204BFD260091E42B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFD08B8D204BFD260091E42B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFD08B94204BFD260091E42B;
+			remoteInfo = RoPro;
+		};
+		FFD08BB5204BFD260091E42B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FFD08B8D204BFD260091E42B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FFD08B94204BFD260091E42B;
+			remoteInfo = RoPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07C1A320CEA7B07516679D5E /* Pods-RoProTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoProTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoProTests/Pods-RoProTests.release.xcconfig"; sourceTree = "<group>"; };
+		18B752A185B888616253D261 /* Pods_RoProUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoProUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		527D82EE7D8CFB5BF13EF43D /* Pods-RoProUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoProUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoProUITests/Pods-RoProUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		89AF626BFF8595ED2E918C04 /* Pods-RoProUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoProUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoProUITests/Pods-RoProUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8D7F54595AD5E144FA965D99 /* Pods-RoPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoPro/Pods-RoPro.release.xcconfig"; sourceTree = "<group>"; };
+		9196E97783FF6DFF615955C2 /* Pods-RoProTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoProTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoProTests/Pods-RoProTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A7ED535F56D52261B1BF0C8 /* Pods_RoProTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoProTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9BB863E192E13E9F6673455 /* Pods_RoPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB3CDDA702A330F9BEAF7D8E /* Pods-RoPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoPro/Pods-RoPro.debug.xcconfig"; sourceTree = "<group>"; };
+		FF1B3735204C53DE0082DBFC /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Base.lproj; path = Core/Resources/Base.lproj; sourceTree = SOURCE_ROOT; };
+		FF1B3737204C53DE0082DBFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Core/Resources/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		FF1B373B204C53EF0082DBFC /* RoPro-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RoPro-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		FF1B373C204C53F60082DBFC /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Settings.bundle; path = Core/Resources/Settings.bundle; sourceTree = SOURCE_ROOT; };
+		FF1B3743204C55BA0082DBFC /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF1B3745204C55C00082DBFC /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF1B3746204C55C00082DBFC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1B3749204C56020082DBFC /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FF1B374A204C56020082DBFC /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFD08B95204BFD260091E42B /* RoPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD08BA9204BFD260091E42B /* RoProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD08BAD204BFD260091E42B /* RoProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoProTests.swift; sourceTree = "<group>"; };
+		FFD08BAF204BFD260091E42B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD08BB4204BFD260091E42B /* RoProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD08BB8204BFD260091E42B /* RoProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoProUITests.swift; sourceTree = "<group>"; };
+		FFD08BBA204BFD260091E42B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFD08BCA204C43030091E42B /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = Podfile; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFD08B92204BFD260091E42B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD99897302EB830054318AF /* Pods_RoPro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD08BA6204BFD260091E42B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B37BDEADD97BE773742949 /* Pods_RoProTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD08BB1204BFD260091E42B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				721AA329CEFA89DD09707FF6 /* Pods_RoProUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67B1950C5CEA14AFD8229B91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB3CDDA702A330F9BEAF7D8E /* Pods-RoPro.debug.xcconfig */,
+				8D7F54595AD5E144FA965D99 /* Pods-RoPro.release.xcconfig */,
+				9196E97783FF6DFF615955C2 /* Pods-RoProTests.debug.xcconfig */,
+				07C1A320CEA7B07516679D5E /* Pods-RoProTests.release.xcconfig */,
+				527D82EE7D8CFB5BF13EF43D /* Pods-RoProUITests.debug.xcconfig */,
+				89AF626BFF8595ED2E918C04 /* Pods-RoProUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D71508F5DAD3EF5D5FEDCF13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9BB863E192E13E9F6673455 /* Pods_RoPro.framework */,
+				9A7ED535F56D52261B1BF0C8 /* Pods_RoProTests.framework */,
+				18B752A185B888616253D261 /* Pods_RoProUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF1B3734204C53C30082DBFC /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FF1B374A204C56020082DBFC /* LaunchScreen.storyboard */,
+				FF1B3749204C56020082DBFC /* Main.storyboard */,
+				FF1B3745204C55C00082DBFC /* AppDelegate.swift */,
+				FF1B3746204C55C00082DBFC /* Info.plist */,
+				FF1B3743204C55BA0082DBFC /* ViewController.swift */,
+				FF1B373B204C53EF0082DBFC /* RoPro-Bridging-Header.h */,
+				FF1B3740204C53FD0082DBFC /* Resources */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FF1B3740204C53FD0082DBFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FF1B373C204C53F60082DBFC /* Settings.bundle */,
+				FF1B3737204C53DE0082DBFC /* Assets.xcassets */,
+				FF1B3735204C53DE0082DBFC /* Base.lproj */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FFD08B8C204BFD260091E42B = {
+			isa = PBXGroup;
+			children = (
+				FF1B3734204C53C30082DBFC /* Core */,
+				FFD08BCA204C43030091E42B /* Podfile */,
+				FFD08BAC204BFD260091E42B /* RoProTests */,
+				FFD08BB7204BFD260091E42B /* RoProUITests */,
+				FFD08B96204BFD260091E42B /* Products */,
+				67B1950C5CEA14AFD8229B91 /* Pods */,
+				D71508F5DAD3EF5D5FEDCF13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFD08B96204BFD260091E42B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFD08B95204BFD260091E42B /* RoPro.app */,
+				FFD08BA9204BFD260091E42B /* RoProTests.xctest */,
+				FFD08BB4204BFD260091E42B /* RoProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFD08BAC204BFD260091E42B /* RoProTests */ = {
+			isa = PBXGroup;
+			children = (
+				FFD08BAD204BFD260091E42B /* RoProTests.swift */,
+				FFD08BAF204BFD260091E42B /* Info.plist */,
+			);
+			path = RoProTests;
+			sourceTree = "<group>";
+		};
+		FFD08BB7204BFD260091E42B /* RoProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFD08BB8204BFD260091E42B /* RoProUITests.swift */,
+				FFD08BBA204BFD260091E42B /* Info.plist */,
+			);
+			path = RoProUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFD08B94204BFD260091E42B /* RoPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD08BBD204BFD260091E42B /* Build configuration list for PBXNativeTarget "RoPro" */;
+			buildPhases = (
+				36BC2B5AE6306680DFB8E46F /* [CP] Check Pods Manifest.lock */,
+				FFD08B91204BFD260091E42B /* Sources */,
+				FFD08B92204BFD260091E42B /* Frameworks */,
+				FFD08B93204BFD260091E42B /* Resources */,
+				7A086738592D4657CBB3C3C1 /* [CP] Embed Pods Frameworks */,
+				86B046BB0C203F6F601D63EE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoPro;
+			productName = RoPro;
+			productReference = FFD08B95204BFD260091E42B /* RoPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FFD08BA8204BFD260091E42B /* RoProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD08BC0204BFD260091E42B /* Build configuration list for PBXNativeTarget "RoProTests" */;
+			buildPhases = (
+				BED74D4FED3C464EDA5D160B /* [CP] Check Pods Manifest.lock */,
+				FFD08BA5204BFD260091E42B /* Sources */,
+				FFD08BA6204BFD260091E42B /* Frameworks */,
+				FFD08BA7204BFD260091E42B /* Resources */,
+				708B991DC781FEBD0A114D2E /* [CP] Embed Pods Frameworks */,
+				B6324287456968A55DC32CDD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFD08BAB204BFD260091E42B /* PBXTargetDependency */,
+			);
+			name = RoProTests;
+			productName = RoProTests;
+			productReference = FFD08BA9204BFD260091E42B /* RoProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FFD08BB3204BFD260091E42B /* RoProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFD08BC3204BFD260091E42B /* Build configuration list for PBXNativeTarget "RoProUITests" */;
+			buildPhases = (
+				C43806FA9FAA1DED9BE02C9B /* [CP] Check Pods Manifest.lock */,
+				FFD08BB0204BFD260091E42B /* Sources */,
+				FFD08BB1204BFD260091E42B /* Frameworks */,
+				FFD08BB2204BFD260091E42B /* Resources */,
+				DFCA9002645EBEA553E21203 /* [CP] Embed Pods Frameworks */,
+				AB706E9B8B4928EB89544693 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FFD08BB6204BFD260091E42B /* PBXTargetDependency */,
+			);
+			name = RoProUITests;
+			productName = RoProUITests;
+			productReference = FFD08BB4204BFD260091E42B /* RoProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFD08B8D204BFD260091E42B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Alexandra Strugaru";
+				TargetAttributes = {
+					FFD08B94204BFD260091E42B = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					FFD08BA8204BFD260091E42B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFD08B94204BFD260091E42B;
+					};
+					FFD08BB3204BFD260091E42B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FFD08B94204BFD260091E42B;
+					};
+				};
+			};
+			buildConfigurationList = FFD08B90204BFD260091E42B /* Build configuration list for PBXProject "RoPro" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFD08B8C204BFD260091E42B;
+			productRefGroup = FFD08B96204BFD260091E42B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFD08B94204BFD260091E42B /* RoPro */,
+				FFD08BA8204BFD260091E42B /* RoProTests */,
+				FFD08BB3204BFD260091E42B /* RoProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFD08B93204BFD260091E42B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1B373E204C53F60082DBFC /* Settings.bundle in Resources */,
+				FF1B3738204C53DE0082DBFC /* Base.lproj in Resources */,
+				FF1B373A204C53DE0082DBFC /* Assets.xcassets in Resources */,
+				FF1B374B204C56020082DBFC /* Main.storyboard in Resources */,
+				FF1B374C204C56020082DBFC /* LaunchScreen.storyboard in Resources */,
+				FF1B3748204C55C10082DBFC /* Info.plist in Resources */,
+				FFD08BCB204C43040091E42B /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD08BA7204BFD260091E42B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD08BB2204BFD260091E42B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		36BC2B5AE6306680DFB8E46F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		708B991DC781FEBD0A114D2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RoProTests/Pods-RoProTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift-iOS11.2/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView-iOS11.2/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library-iOS11.2/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm-iOS11.2/Realm.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoProTests/Pods-RoProTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A086738592D4657CBB3C3C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RoPro/Pods-RoPro-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift-iOS10.0/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView-iOS10.0/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library-iOS10.0/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm-iOS10.0/Realm.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoPro/Pods-RoPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86B046BB0C203F6F601D63EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RoPro/Pods-RoPro-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/HockeySDK-iOS10.0/HockeySDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HockeySDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoPro/Pods-RoPro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB706E9B8B4928EB89544693 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RoProUITests/Pods-RoProUITests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/HockeySDK-iOS11.2/HockeySDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HockeySDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoProUITests/Pods-RoProUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6324287456968A55DC32CDD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RoProTests/Pods-RoProTests-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/HockeySDK-iOS11.2/HockeySDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/HockeySDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoProTests/Pods-RoProTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BED74D4FED3C464EDA5D160B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoProTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C43806FA9FAA1DED9BE02C9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoProUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFCA9002645EBEA553E21203 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RoProUITests/Pods-RoProUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift-iOS11.2/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView-iOS11.2/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library-iOS11.2/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm-iOS11.2/Realm.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoProUITests/Pods-RoProUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFD08B91204BFD260091E42B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF1B3747204C55C00082DBFC /* AppDelegate.swift in Sources */,
+				FF1B3744204C55BA0082DBFC /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD08BA5204BFD260091E42B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD08BAE204BFD260091E42B /* RoProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFD08BB0204BFD260091E42B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD08BB9204BFD260091E42B /* RoProUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FFD08BAB204BFD260091E42B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFD08B94204BFD260091E42B /* RoPro */;
+			targetProxy = FFD08BAA204BFD260091E42B /* PBXContainerItemProxy */;
+		};
+		FFD08BB6204BFD260091E42B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FFD08B94204BFD260091E42B /* RoPro */;
+			targetProxy = FFD08BB5204BFD260091E42B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FFD08BBB204BFD260091E42B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFD08BBC204BFD260091E42B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFD08BBE204BFD260091E42B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3CDDA702A330F9BEAF7D8E /* Pods-RoPro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RTNK6SMNK4;
+				INFOPLIST_FILE = Core/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ALEX.RoPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RoPro-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FFD08BBF204BFD260091E42B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D7F54595AD5E144FA965D99 /* Pods-RoPro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RTNK6SMNK4;
+				INFOPLIST_FILE = Core/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ALEX.RoPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RoPro-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FFD08BC1204BFD260091E42B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9196E97783FF6DFF615955C2 /* Pods-RoProTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RTNK6SMNK4;
+				INFOPLIST_FILE = RoProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ALEX.RoProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoPro.app/RoPro";
+			};
+			name = Debug;
+		};
+		FFD08BC2204BFD260091E42B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07C1A320CEA7B07516679D5E /* Pods-RoProTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RTNK6SMNK4;
+				INFOPLIST_FILE = RoProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ALEX.RoProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoPro.app/RoPro";
+			};
+			name = Release;
+		};
+		FFD08BC4204BFD260091E42B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 527D82EE7D8CFB5BF13EF43D /* Pods-RoProUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RTNK6SMNK4;
+				INFOPLIST_FILE = RoProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ALEX.RoProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoPro;
+			};
+			name = Debug;
+		};
+		FFD08BC5204BFD260091E42B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89AF626BFF8595ED2E918C04 /* Pods-RoProUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RTNK6SMNK4;
+				INFOPLIST_FILE = RoProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ALEX.RoProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoPro;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFD08B90204BFD260091E42B /* Build configuration list for PBXProject "RoPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD08BBB204BFD260091E42B /* Debug */,
+				FFD08BBC204BFD260091E42B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD08BBD204BFD260091E42B /* Build configuration list for PBXNativeTarget "RoPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD08BBE204BFD260091E42B /* Debug */,
+				FFD08BBF204BFD260091E42B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD08BC0204BFD260091E42B /* Build configuration list for PBXNativeTarget "RoProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD08BC1204BFD260091E42B /* Debug */,
+				FFD08BC2204BFD260091E42B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFD08BC3204BFD260091E42B /* Build configuration list for PBXNativeTarget "RoProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFD08BC4204BFD260091E42B /* Debug */,
+				FFD08BC5204BFD260091E42B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFD08B8D204BFD260091E42B /* Project object */;
+}
